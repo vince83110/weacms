@@ -44,6 +44,9 @@ class Slider_unslider_admin extends WidgetController
 		);
 	}
 	
+	/**
+	 * 
+	 */
 	public function index()
 	{
 		
