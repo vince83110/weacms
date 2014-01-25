@@ -1,0 +1,10 @@
+@media print {
+	#leftSide, #breadcrumbs, #footer, .topNav, .hide-print, .btn { display:none !important; }
+	input { border: none !important; }
+	
+    li.graph-green { background:#97BE0D !important; }
+    li.graph-grey { background:#aaa !important; }
+    li.graph-blue { background:#88B8E6 !important; }
+    li.graph-red { background:#D84F5F !important; }
+    li.graph-dark { background:#333 !important; }    	
+}

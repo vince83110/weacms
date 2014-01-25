@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule (.*)\.css /site/stylesheets/zipcss.php?file=$1.css [L]
+
+
+# KILL THEM ETAGS
+Header unset ETag
+FileETag none

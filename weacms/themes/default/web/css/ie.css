@@ -1,0 +1,11 @@
+div.panel { border: 1px solid #ccc; }
+.lt-ie8 .nav-bar li.has-flyout a { padding-right: 20px; }
+.lt-ie8 .nav-bar li.has-flyout a:after { border-top: none; }
+
+.lt-ie8 footer .columns { position:static!important; }
+.lt-ie8 form.custom div.custom.dropdown { width:224px; }
+.lt-ie8 .graph-ul li { float:none; }
+.lt-ie8 #form-devis { overflow:hidden; width:980px; position: relative; }
+.lt-ie8 .orbit-wrapper, .lt-ie8 .orbit { height:100%!important; }
+
+#circles { z-index:11; }

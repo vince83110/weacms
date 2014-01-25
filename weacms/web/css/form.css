@@ -1,0 +1,94 @@
+.wcol1 {
+    border: 1px solid #339BB9;
+    margin-right: 5%;
+    width: 60%;
+}
+.wcol2 {
+    border: 1px solid #57A957;
+    width: 30%;
+}
+.wcol {
+	float: left;
+}
+.wcol.wcol_right {
+    margin-left: 5%;
+    margin-right: 0;
+}
+.wzone {
+    border: 1px solid #57A957;
+    margin: 10px 0;
+}
+.widget {
+    border: 1px solid #339BB9;
+    margin: 10px;
+    width: 230px;
+}
+.wcontent {
+    padding: 4px;
+}
+.widget .zone {
+    color: #AAAAAA;
+    font-style: italic;
+    text-align: right;
+}
+.ui-state-highlight {
+    background: none repeat scroll 0 0 #FDF5D9;
+}
+#zone {
+    list-style: none outside none;
+}
+#zone .clearfix {
+    border-bottom: 1px solid #DDDDDD;
+    padding: 6px;
+}
+.field {
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+	border: 1px solid #e2e2e2;
+    color: #999999;
+    cursor: move;
+    float: left;
+    font-size: 12px;
+    margin: 5px;
+    padding: 6px;
+    text-align: center;
+    width: 110px;
+	clear: none;
+}
+.field_buttons {
+    position: absolute;
+    right: 20px;
+    top: 3px;
+}
+.field span {
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: block;
+    height: 18px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.field_1 span {
+    background-image: url("field/field_1.png");
+}
+.field_2 span {
+    background-image: url("icon/mail.png");
+}
+.field_3 span {
+    background-image: url("icon/calendar.png");
+}
+.field_4 span {
+    background-image: url("field/field_4.png");
+}
+.field_5 span {
+    background-image: url("field/field_5.png");
+}
+.field_6 span {
+    background-image: url("field/field_6.png");
+}
+.field_7 span {
+    background-image: url("field/field_7.png");
+}
+.field_8 span {
+    background-image: url("icon/user.png");
+}

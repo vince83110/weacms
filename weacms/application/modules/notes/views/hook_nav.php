@@ -1,0 +1,1 @@
+<li><a class="tip dropdown-toggle" data-dialog-open="dnote" original-title="Laisser une note"><i class="icon-pencil"></i></a></li>

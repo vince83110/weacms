@@ -1,0 +1,67 @@
+.treeview { 
+	padding: 12px;
+	margin: 0;
+	list-style: none;
+	background: #f7f7f7;
+	overflow: hidden;
+	clear: both;
+}
+.treeview a {
+	color: #fff;
+}
+
+.treeview ul {
+	margin-top: 4px;
+}
+.treeview ul a {
+	color: #222;
+}
+
+.treeview .hitarea {
+	background: url(img/button-toggle-plus.png) no-repeat 0px -24px;
+	height: 24px;
+	width: 24px;
+	float: right;
+	cursor: pointer;
+	margin-top: -2px;
+}
+/* fix for IE6 */
+* html .hitarea {
+	display: inline;
+	float:none;
+}
+
+.treeview li {
+	margin: 3px 1%;
+	float: left;
+	width: 47%;
+	background: #dadada;
+	cursor: pointer;
+	padding: 2px 0;
+	border-left: 2px solid #B4BBC7;
+}
+.treeview li.selected {
+	background: #4d90fe;
+	border-left-color: #2572EB;
+}
+.treeview li a {
+	display: block;
+	padding: 8px 0 8px 16px;
+}
+.treeview a.selected {
+	background-color: #eee;
+}
+.treeview li ul li {
+	float: none;
+	width: auto;
+	background: #eee;
+	margin: 3px 10px 3px 0;
+}
+
+#treecontrol { margin: 1em 0; display: none; }
+
+.treeview .hover { color: red; cursor: pointer; }
+
+.treeview li.collapsable, .treeview li.expandable { background-position: 0 -176px; }
+
+.treeview .expandable-hitarea { background-position: 0px 0px; }
